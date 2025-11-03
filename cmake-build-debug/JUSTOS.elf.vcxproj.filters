@@ -1,0 +1,1109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\adc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\can.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\crc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\dma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\freertos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\gpio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\i2c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\spi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\stm32f4xx_hal_msp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\stm32f4xx_hal_timebase_tim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\stm32f4xx_it.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\syscalls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\sysmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\system_stm32f4xx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\tim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\usart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\croutine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\queue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\tasks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\timers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\App\usb_device.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\App\usbd_cdc_if.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\App\usbd_desc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\Target\usbd_conf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\PID\PID.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\PID\PID_classic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF\QuaternionEKF.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16\crc8_crc16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\ef_types.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\src\cJSON.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\src\s2j.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\port\ef_port.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\src\easyflash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\src\ef_env.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\src\ef_env_legacy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\src\ef_env_legacy_wl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\src\ef_iap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\src\ef_log.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\src\ef_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file\elog_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file\elog_file_port.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash\elog_flash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash\elog_flash_port.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\port\elog_port.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\src\elog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\src\elog_async.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\src\elog_buf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\src\elog_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\fifo\fifo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\kalman\kalman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter\kalman_filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com\EF_com.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\userlib\user_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN\BSP_CAN.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT\bsp_dwt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT\BSP_IT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED\BSP_LCD.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART\BSP_UART.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB\BSP_USB.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h\BSP_button.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer\BSP_buzzer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay\bsp_delay.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash\BSP_W25Qx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\DR16\DR16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg\leg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis\mecanumwheel_chassis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis\omniwheel_chassis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon\daemon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus\tinybus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG\LOG.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug\FreertosDebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\gimbal\gimbal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\launcher\launcher.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat\drat_logic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis\enginchas_logic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis\enginchas_wheel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero\hero_logic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry\infantry_logic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\modules.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006\dm_j8006.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors\dm_motor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\C610.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\C620.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\GM6020.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\GMmotors.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025\MF9025.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005\MG4005.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear\cybergear.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin\SteadyWin_MIT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor\stepper_motor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\referee\referee.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\shooter\shooter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01\pm01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown\unknown_super_cap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\test\test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com\navigation_com.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com\vision_com.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm\Engin_arm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm\sp_logic-t.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm\sp_logic01.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm\sp_logic_ju.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm\special_foot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\FreeRTOSConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\adc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\can.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\crc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\dma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\gpio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\i2c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\spi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\stm32f4xx_hal_conf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\stm32f4xx_it.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\tim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\usart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cachel1_armv7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cmsis_armcc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cmsis_armclang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cmsis_armclang_ltm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cmsis_compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cmsis_gcc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cmsis_iccarm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cmsis_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_armv81mml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_armv8mbl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_armv8mml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm0plus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm23.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm33.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm35p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm55.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm85.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_sc000.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_sc300.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_starmc1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\mpu_armv7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\mpu_armv8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\pac_armv81.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\pmu_armv8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\tz_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_can.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_crc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd_ex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_bus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_cortex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_crc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_dma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_exti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_gpio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_i2c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_pwr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_rcc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_spi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_tim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc\arm_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc\usbd_cdc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ctlreq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ioreq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\StackMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\atomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\croutine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\deprecated_definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\event_groups.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\message_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\mpu_prototypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\mpu_wrappers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\projdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\semphr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\stack_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\stream_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\task.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\timers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\portmacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\App\usb_device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\App\usbd_cdc_if.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\App\usbd_desc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\Target\usbd_conf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_can.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_chassis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_dr16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_efcom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_gimbal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_leg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_motor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_navigation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_shooter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_uart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_vision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\PID\PID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\PID\PID_classic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF\QuaternionEKF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16\crc8_crc16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc\easyflash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc\ef_cfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc\ef_def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\ef_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc\cJSON.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc\s2j.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc\s2jdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc\elog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc\elog_cfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file\elog_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file\elog_file_cfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash\elog_flash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash\elog_flash_cfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\fifo\fifo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\kalman\kalman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter\kalman_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com\EF_com.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com\EF_conf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\userlib\user_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN\BSP_CAN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN\BSP_CAN_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT\bsp_dwt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT\BSP_IT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED\BSP_LED.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED\BSP_LED_conf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART\BSP_UART.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART\BSP_UART_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB\BSP_USB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB\BSP_USB_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h\BSP_button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h\BSP_button_conf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer\BSP_buzzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay\bsp_delay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash\BSP_W25Qx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\DR16\DR16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\DR16\DR16_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg\leg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis\mecanumwheel_chassis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis\omniwheel_chassis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon\daemon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus\tinybus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus\tinybus_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG\LOG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug\FreertosDebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\gimbal\gimbal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\launcher\launcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat\drat_logic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis\enginchas_logic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero\hero_logic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry\infantry_logic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\modules.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006\dm_j8006.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors\dm_motor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\C610.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\C620.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\GM6020.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\GMmotors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025\MF9025.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025\MF9025_defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005\MG4005.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005\MG4005_defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear\cybergear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear\cybergear_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear\cybergear_defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin\SteadyWin_MIT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor\stepper_motor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\referee\referee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\shooter\shooter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01\pm01.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown\unknown_super_cap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\test\test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com\navigation_com.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com\vision_com.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm\Engin_arm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm\special_foot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\33576\Desktop\nf44\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\33576\Desktop\nf44\justfw\misc\img.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\Users\33576\Desktop\nf44\justfw\misc\img_1.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\Users\33576\Desktop\nf44\justfw\misc\img_2.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\33576\Desktop\nf44\Core\Startup\startup_stm32f446rctx.s" />
+    <None Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\LICENSE.txt" />
+    <None Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\LICENSE.txt" />
+    <None Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\LICENSE.txt" />
+    <None Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a" />
+    <None Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\LICENSE.txt" />
+    <None Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\ARM\DSP\LICENSE.txt" />
+    <None Include="C:\Users\33576\Desktop\nf44\stm32f446rctx_flash.ld" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\interface\readme.md" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\README.md" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\readme.md" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com\README.md" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART\readme.md" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\modules\config.json" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon\daemon.md" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus\module.json" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\readme.md" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\readme.md" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear\readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{37E90279-53BD-3EDD-B563-BF1BE3A4249D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{E77BB618-852E-3892-9DAC-A0DF301A055F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E911FA34-5600-37DB-B61B-5F39A48C68FE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

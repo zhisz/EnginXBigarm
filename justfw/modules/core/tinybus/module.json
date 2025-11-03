@@ -1,0 +1,10 @@
+{
+    "title": "JUSTCFG json mod config",
+    "id": "tinybus",
+
+    "name": "tinybus",
+    "version": "0.2.0",
+    "description": "JUST module",
+    "author": "MoeOver"
+
+}

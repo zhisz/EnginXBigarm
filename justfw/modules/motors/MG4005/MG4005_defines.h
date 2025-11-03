@@ -1,0 +1,41 @@
+//
+// Created by 3050 on 2024/2/18.
+//
+
+#ifndef JUSTFW_MG4005_DEFINES_H
+#define JUSTFW_MG4005_DEFINES_H
+#define MG4005_ID_BASE 0x140 // 基础ID(电机ID+基础ID=电机CAN ID)
+
+#define MG4005_ID_BROADCAST_TORQUE 0x280 // 广播力矩控制
+#define MG4005_ID_BROADCAST_SPEED 0x281 // 广播速度控制
+#define MG4005_ID_BROADCAST_POSITION 0x282 // 广播位置控制
+#define MG4005_ID_BROADCAST_MIX 0x288 // 广播混合控制
+
+#define MG4005_CMD_READ_PID 0x30 // 读取PID参数
+#define MG4005_CMD_WRITE_PID_RAM 0x31 // 写入PID参数到RAM
+#define MG4005_CMD_WRITE_PID_ROM 0x32 // 写入PID参数到ROM
+#define MG4005_CMD_READ_ACCELERATION 0x33 // 读取加速度
+#define MG4005_CMD_WRITE_ACCELERATION 0x34 // 写入加速度到RAM
+#define MG4005_CMD_READ_ENCODER 0x90 // 读取编码器值
+#define MG4005_CMD_WRITE_ENCODER_ROM 0x91 // 写入编码器值到ROM作为电机零点
+#define MG4005_CMD_WRITE_ENCODER_ROM_CURRENT 0x19 // 写入当前位置到ROM作为电机零点
+#define MG4005_CMD_READ_ANGLE_MULTI 0x92 // 读取多圈角度
+#define MG4005_CMD_READ_ANGLE_SINGLE 0x94 // 读取单圈角度
+#define MG4005_CMD_CLEAR_ANGLE 0x95 // 清除电机角度（设置电机初始位置)
+#define MG4005_CMD_READ_STATUS1 0x9A // 读取电机状态1和错误代码
+#define MG4005_CMD_CLEAR_ERR 0x9B // 清除错误代码
+#define MG4005_CMD_READ_STATUS2 0x9C // 读取电机状态2
+#define MG4005_CMD_DISABLE 0x80 // 电机关闭
+#define MG4005_CMD_ENABLE 0x88 // 电机运行
+#define MG4005_CMD_STOP 0x81  // 电机停止
+#define MG4005_CMD_TORQUE_OPEN 0xA0 // 转矩开环控制
+#define MG4005_CMD_TORQUE_CLOSE 0xA1 // 转矩闭环控制
+#define MG4005_CMD_SPEED_CLOSE 0xA2 // 速度闭环控制
+#define MG4005_CMD_POSITION_CLOSE1 0xA3 // 位置闭环控制1
+#define MG4005_CMD_POSITION_CLOSE2 0xA4 // 位置闭环控制2
+#define MG4005_CMD_POSITION_CLOSE3 0xA5 // 位置闭环控制3
+#define MG4005_CMD_POSITION_CLOSE4 0xA6 // 位置闭环控制4
+#define MG4005_CMD_POSITION_CLOSE5 0xA7 // 位置闭环控制5
+#define MG4005_CMD_POSITION_CLOSE6 0xA8 // 位置闭环控制6
+
+#endif //JUSTFW_MG4005_DEFINES_H

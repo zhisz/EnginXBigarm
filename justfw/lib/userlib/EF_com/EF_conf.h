@@ -1,0 +1,15 @@
+#ifndef __EF_CONF_H
+#define __EF_CONF_H
+
+#define EF_INT_DATA_TOPIC_NAME "EF_RX_INT"
+#define EF_FLOAT_DATE_TOPIC_NAME "EF_FLOAT"
+#define EF_CUSTOM_DATA_TOPIC_NAME "EF_CUSTOM"
+
+#define EF_TX_TOPIC_NAME "USB_TX"
+#define EF_RX_TOPIC_NAME "USB_RX"
+
+#define EF_DATA_HEAD 0xEFFE
+
+#define EF_TX_BUFFER_SIZE 512
+
+#endif

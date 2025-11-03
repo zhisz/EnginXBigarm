@@ -1,0 +1,119 @@
+#此文件从模板自动生成! 请勿更改!
+set(CMAKE_SYSTEM_NAME Generic)
+set(CMAKE_SYSTEM_VERSION 1)
+cmake_minimum_required(VERSION 3.28)
+
+# specify cross-compilers and tools
+set(CMAKE_C_COMPILER arm-none-eabi-gcc)
+set(CMAKE_CXX_COMPILER arm-none-eabi-g++)
+set(CMAKE_ASM_COMPILER  arm-none-eabi-gcc)
+set(CMAKE_AR arm-none-eabi-ar)
+set(CMAKE_OBJCOPY arm-none-eabi-objcopy)
+set(CMAKE_OBJDUMP arm-none-eabi-objdump)
+set(SIZE arm-none-eabi-size)
+set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
+
+# project settings
+project(JUSTOS C CXX ASM)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_C_STANDARD 11)
+
+#Uncomment for hardware floating point
+add_compile_definitions(ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING)
+add_compile_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
+add_link_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
+
+#Uncomment for software floating point
+#add_compile_options(-mfloat-abi=soft)
+
+#DSP
+include_directories("Middlewares/ST/ARM/DSP/Inc")
+link_directories(Middlewares/ST/ARM/DSP/Lib)
+link_libraries(libarm_cortexM4lf_math.a) #Middlewares/ST/ARM/DSP/Lib下的文件名
+
+
+add_compile_options(-mcpu=cortex-m4 -mthumb -mthumb-interwork)
+add_compile_options(-ffunction-sections -fdata-sections -fno-common -fmessage-length=0)
+
+# uncomment to mitigate c++17 absolute addresses warnings
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-register")
+
+# Enable assembler files preprocessing
+add_compile_options($<$<COMPILE_LANGUAGE:ASM>:-x$<SEMICOLON>assembler-with-cpp>)
+
+if ("${CMAKE_BUILD_TYPE}" STREQUAL "Release")
+    message(STATUS "Maximum optimization for speed")
+    add_compile_options(-Ofast)
+elseif ("${CMAKE_BUILD_TYPE}" STREQUAL "RelWithDebInfo")
+    message(STATUS "Maximum optimization for speed, debug info included")
+    add_compile_options(-Ofast -g)
+elseif ("${CMAKE_BUILD_TYPE}" STREQUAL "MinSizeRel")
+    message(STATUS "Maximum optimization for size")
+    add_compile_options(-Os)
+else ()
+    message(STATUS "Minimal optimization, debug info included")
+    add_compile_options(-Og -g)
+endif ()
+
+include_directories(Core/Inc USB_DEVICE/App USB_DEVICE/Target Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Middlewares/Third_Party/FreeRTOS/Source/include Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F Middlewares/ST/STM32_USB_Device_Library/Core/Inc Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include Middlewares/ST/ARM/DSP/Inc Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2)
+
+add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx)
+
+file(GLOB_RECURSE SOURCES "Core/*.*" "Middlewares/*.*" "Drivers/*.*" "USB_DEVICE/*.*")
+
+set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F446RCTX_FLASH.ld)
+
+add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map)
+add_link_options(-mcpu=cortex-m4 -mthumb -mthumb-interwork)
+add_link_options(-T ${LINKER_SCRIPT})
+
+macro(FIND_INCLUDE_DIR result curdir)									#定义函数,2个参数:存放结果result；指定路径curdir；
+    file(GLOB_RECURSE children "${curdir}/*.hpp" "${curdir}/*.h" )		#遍历获取{curdir}中*.hpp和*.h文件列表
+    set(dirlist "")														#定义dirlist中间变量，并初始化
+    foreach(child ${children})											#for循环
+        string(REGEX REPLACE "(.*)/.*" "\\1" LIB_NAME ${child})			#字符串替换,用/前的字符替换/*h
+        if(IS_DIRECTORY ${LIB_NAME})									#判断是否为路径
+            list (FIND dirlist ${LIB_NAME} list_index)					#去重，查找dirlist中是否有${LIB_NAME}指定的值，可以区分字符串相同数子后缀不同的路径：例如/app/test_1和/app/test_2
+            if(${list_index} LESS 0)									#若没找到则代表列表中没有该路径
+                LIST(APPEND dirlist ${LIB_NAME})						#将合法的路径加入dirlist变量中
+            endif()														#结束判断
+        endif()
+    endforeach()														#结束for循环
+    set(${result} ${dirlist})											#dirlist结果放入result变量中
+endmacro()
+
+FIND_INCLUDE_DIR(INCLUDES "justfw/modules")
+include_directories(${INCLUDES})
+FIND_INCLUDE_DIR(INCLUDES "justfw/lib")
+include_directories(${INCLUDES})
+FIND_INCLUDE_DIR(INCLUDES "User/include")
+include_directories(${INCLUDES} "User")
+
+#递归搜索
+file(GLOB_RECURSE HEADER_FILES
+        "justfw/**/*.h"
+        "Middlewares/**/*.h"
+        "User/**/*.h"
+        "User/*.h"
+)
+foreach(header ${HEADER_FILES})
+    get_filename_component(header_dir ${header} DIRECTORY)
+    list(APPEND INCLUDE_DIRS ${header_dir})
+endforeach()
+list(REMOVE_DUPLICATES INCLUDE_DIRS)
+include_directories(${INCLUDE_DIRS})
+
+file(GLOB_RECURSE JUSTFW "justfw/**/*.*" "User/**/*.*" "User/*.*")#"User/**/*.*" "User/*.*"
+
+#include_directories(justfw/interface)
+
+add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT} ${JUSTFW})
+
+set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
+set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)
+
+add_custom_command(TARGET ${PROJECT_NAME}.elf POST_BUILD
+        COMMAND ${CMAKE_OBJCOPY} -Oihex $<TARGET_FILE:${PROJECT_NAME}.elf> ${HEX_FILE}
+        COMMAND ${CMAKE_OBJCOPY} -Obinary $<TARGET_FILE:${PROJECT_NAME}.elf> ${BIN_FILE}
+        COMMENT "Building ${HEX_FILE}
+Building ${BIN_FILE}")

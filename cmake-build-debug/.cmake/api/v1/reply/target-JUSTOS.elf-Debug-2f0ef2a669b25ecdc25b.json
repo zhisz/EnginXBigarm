@@ -1,0 +1,3563 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "JUSTOS.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"link_directories",
+			"add_compile_options",
+			"add_compile_definitions",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mthumb-interwork"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "ARM_MATH_CM4"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ARM_MATH_MATRIX_CHECK"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ARM_MATH_ROUNDING"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "STM32F446xx"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/ST/ARM/DSP/Inc"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Core/Inc"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/USB_DEVICE/App"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/USB_DEVICE/Target"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/STM32F4xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_CAN"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_DWT"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_IT"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_LED"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_UART"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_USB"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_button.h"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_buzzer"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_delay"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_flash"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/DR16"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/NRF24L01"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/chassis/leg"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/chassis/mecanumwheel_chassis"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/chassis/omniwheel_chassis"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/core/daemon"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/core/tinybus"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/debug/LOG"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/debug/freeRTOS_debug"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/gimbal"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/launcher"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/drat"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/engineer_chassis"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/hero"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/infantry"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/DM_J8006"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/DMmotors"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/GMmotors"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/MF9025"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/MG4005"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/cybergear"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/steadywin"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/stepper_motor"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/referee"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/shooter"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/super_cap/pm01"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/super_cap/unknown"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/test"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/vision/navigation_com"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/vision/vision_com"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/yue_study/sp/engin_arm"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/PID"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/QuaternionEKF"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/crc8_crc16"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easyflash/inc"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easyflash/plugins/types"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easyflash/plugins/types/struct2json/inc"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easylogger/inc"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easylogger/plugins/file"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easylogger/plugins/flash"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/fifo"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/kalman"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/kalman_filter"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/userlib/EF_com"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/userlib"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/User"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/interface"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				141,
+				146,
+				147,
+				148,
+				151,
+				153,
+				154,
+				173,
+				174,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				183,
+				185,
+				187,
+				204,
+				206,
+				208,
+				210,
+				216,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				234,
+				237,
+				238,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				249,
+				251,
+				253,
+				257,
+				262,
+				265,
+				267,
+				269,
+				272,
+				276,
+				279,
+				282,
+				284,
+				286,
+				288,
+				291,
+				294,
+				296,
+				298,
+				301,
+				305,
+				308,
+				310,
+				312,
+				314,
+				316,
+				318,
+				320,
+				321,
+				323,
+				326,
+				328,
+				330,
+				332,
+				334,
+				336,
+				338,
+				341,
+				344,
+				347,
+				352,
+				354,
+				356,
+				358,
+				360,
+				362,
+				364,
+				366,
+				368,
+				370,
+				372,
+				373,
+				374,
+				375
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-mfpu=fpv4-sp-d16"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mthumb-interwork"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-x"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "assembler-with-cpp"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "ARM_MATH_CM4"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ARM_MATH_MATRIX_CHECK"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ARM_MATH_ROUNDING"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "STM32F446xx"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/ST/ARM/DSP/Inc"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Core/Inc"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/USB_DEVICE/App"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/USB_DEVICE/Target"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/STM32F4xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_CAN"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_DWT"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_IT"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_LED"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_UART"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_USB"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_button.h"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_buzzer"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_delay"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_flash"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/DR16"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/NRF24L01"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/chassis/leg"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/chassis/mecanumwheel_chassis"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/chassis/omniwheel_chassis"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/core/daemon"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/core/tinybus"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/debug/LOG"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/debug/freeRTOS_debug"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/gimbal"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/launcher"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/drat"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/engineer_chassis"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/hero"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/infantry"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/DM_J8006"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/DMmotors"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/GMmotors"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/MF9025"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/MG4005"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/cybergear"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/steadywin"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/stepper_motor"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/referee"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/shooter"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/super_cap/pm01"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/super_cap/unknown"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/test"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/vision/navigation_com"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/vision/vision_com"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/yue_study/sp/engin_arm"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/PID"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/QuaternionEKF"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/crc8_crc16"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easyflash/inc"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easyflash/plugins/types"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easyflash/plugins/types/struct2json/inc"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easylogger/inc"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easylogger/plugins/file"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easylogger/plugins/flash"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/fifo"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/kalman"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/kalman_filter"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/userlib/EF_com"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/userlib"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/User"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/interface"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				30
+			]
+		}
+	],
+	"id" : "JUSTOS.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mfloat-abi=hard",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mfpu=fpv4-sp-d16",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/33576/Desktop/EnginXBigarm/cmake-build-debug/JUSTOS.map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-mcpu=cortex-m4",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-mthumb",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-mthumb-interwork",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-T",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "C:/Users/33576/Desktop/EnginXBigarm/STM32F446RCTX_FLASH.ld",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-LC:\\Users\\33576\\Desktop\\EnginXBigarm\\Middlewares\\ST\\ARM\\DSP\\Lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "-larm_cortexM4lf_math",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "JUSTOS.elf",
+	"nameOnDisk" : "JUSTOS.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				31,
+				32,
+				33,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				138,
+				140,
+				142,
+				143,
+				144,
+				145,
+				152,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				175,
+				182,
+				184,
+				186,
+				188,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				205,
+				207,
+				209,
+				211,
+				212,
+				213,
+				214,
+				217,
+				218,
+				219,
+				220,
+				232,
+				233,
+				235,
+				236,
+				239,
+				240,
+				248,
+				250,
+				252,
+				254,
+				255,
+				258,
+				263,
+				264,
+				266,
+				268,
+				270,
+				271,
+				273,
+				274,
+				277,
+				278,
+				280,
+				281,
+				283,
+				285,
+				287,
+				289,
+				290,
+				292,
+				293,
+				295,
+				297,
+				299,
+				302,
+				306,
+				307,
+				309,
+				311,
+				313,
+				315,
+				317,
+				319,
+				322,
+				324,
+				327,
+				329,
+				331,
+				333,
+				335,
+				337,
+				339,
+				342,
+				343,
+				345,
+				346,
+				348,
+				349,
+				350,
+				353,
+				355,
+				357,
+				359,
+				361,
+				363,
+				365,
+				367,
+				369,
+				371,
+				376
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				141,
+				146,
+				147,
+				148,
+				151,
+				153,
+				154,
+				173,
+				174,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				183,
+				185,
+				187,
+				204,
+				206,
+				208,
+				210,
+				216,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				234,
+				237,
+				238,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				249,
+				251,
+				253,
+				257,
+				262,
+				265,
+				267,
+				269,
+				272,
+				276,
+				279,
+				282,
+				284,
+				286,
+				288,
+				291,
+				294,
+				296,
+				298,
+				301,
+				305,
+				308,
+				310,
+				312,
+				314,
+				316,
+				318,
+				320,
+				321,
+				323,
+				326,
+				328,
+				330,
+				332,
+				334,
+				336,
+				338,
+				341,
+				344,
+				347,
+				352,
+				354,
+				356,
+				358,
+				360,
+				362,
+				364,
+				366,
+				368,
+				370,
+				372,
+				373,
+				374,
+				375
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				30,
+				34,
+				65,
+				110,
+				139,
+				149,
+				150,
+				189,
+				203,
+				215,
+				221,
+				256,
+				275,
+				300,
+				303,
+				304,
+				325,
+				340,
+				351
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				259,
+				260,
+				261
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/FreeRTOSConfig.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/adc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/can.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/crc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/dma.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/gpio.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/i2c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/main.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/spi.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/stm32f4xx_hal_conf.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/stm32f4xx_it.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/tim.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/usart.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/adc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/can.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/crc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/dma.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/freertos.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/gpio.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/i2c.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/main.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/spi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32f4xx_hal_msp.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32f4xx_hal_timebase_tim.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32f4xx_it.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/syscalls.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/sysmem.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/system_stm32f4xx.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/tim.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/usart.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Startup/startup_stm32f446rctx.s",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/cachel1_armv7.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/cmsis_armcc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/cmsis_armclang.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/cmsis_armclang_ltm.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/cmsis_compiler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/cmsis_gcc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/cmsis_iccarm.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/cmsis_version.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_armv81mml.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_armv8mbl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_armv8mml.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm0.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm0plus.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm1.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm23.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm3.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm33.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm35p.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm4.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm55.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm7.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm85.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_sc000.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_sc300.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_starmc1.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/mpu_armv7.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/mpu_armv8.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/pac_armv81.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/pmu_armv8.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/tz_context.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/LICENSE.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_crc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_crc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/LICENSE.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/ARM/DSP/Inc/arm_math.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/ARM/DSP/LICENSE.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/croutine.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/event_groups.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/list.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/portable.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/queue.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/task.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/include/timers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/list.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/queue.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/tasks.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/Third_Party/FreeRTOS/Source/timers.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/App/usb_device.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "USB_DEVICE/App/usb_device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/App/usbd_cdc_if.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "USB_DEVICE/App/usbd_cdc_if.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/App/usbd_desc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "USB_DEVICE/App/usbd_desc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/Target/usbd_conf.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "USB_DEVICE/Target/usbd_conf.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "stm32f446rctx_flash.ld",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/interface/interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/interface/intf_can.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/interface/intf_chassis.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/interface/intf_dr16.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/interface/intf_efcom.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/interface/intf_gimbal.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/interface/intf_leg.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/interface/intf_log.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/interface/intf_motor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/interface/intf_navigation.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/interface/intf_shooter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/interface/intf_uart.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/interface/intf_vision.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/interface/readme.md",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/PID/PID.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/PID/PID.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/PID/PID_classic.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/PID/PID_classic.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/QuaternionEKF/QuaternionEKF.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/QuaternionEKF/QuaternionEKF.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/crc8_crc16/crc8_crc16.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/crc8_crc16/crc8_crc16.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/easyflash/inc/easyflash.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/easyflash/inc/ef_cfg.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/easyflash/inc/ef_def.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/easyflash/plugins/types/README.md",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easyflash/plugins/types/ef_types.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/easyflash/plugins/types/ef_types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/easyflash/plugins/types/struct2json/inc/cJSON.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/easyflash/plugins/types/struct2json/inc/s2j.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/easyflash/plugins/types/struct2json/inc/s2jdef.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/easyflash/plugins/types/struct2json/readme.md",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easyflash/plugins/types/struct2json/src/cJSON.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easyflash/plugins/types/struct2json/src/s2j.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easyflash/port/ef_port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easyflash/src/easyflash.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easyflash/src/ef_env.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easyflash/src/ef_env_legacy.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easyflash/src/ef_env_legacy_wl.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easyflash/src/ef_iap.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easyflash/src/ef_log.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easyflash/src/ef_utils.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/easylogger/inc/elog.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/easylogger/inc/elog_cfg.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easylogger/plugins/file/elog_file.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/easylogger/plugins/file/elog_file.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/easylogger/plugins/file/elog_file_cfg.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easylogger/plugins/file/elog_file_port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easylogger/plugins/flash/elog_flash.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/easylogger/plugins/flash/elog_flash.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/easylogger/plugins/flash/elog_flash_cfg.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easylogger/plugins/flash/elog_flash_port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easylogger/port/elog_port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easylogger/src/elog.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easylogger/src/elog_async.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easylogger/src/elog_buf.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/easylogger/src/elog_utils.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/fifo/fifo.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/fifo/fifo.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/kalman/kalman.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/kalman/kalman.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/kalman_filter/kalman_filter.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/kalman_filter/kalman_filter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/userlib/EF_com/EF_com.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/userlib/EF_com/EF_com.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/userlib/EF_com/EF_conf.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/userlib/EF_com/README.md",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/lib/userlib/user_lib.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/lib/userlib/user_lib.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/misc/img.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/misc/img_1.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/misc/img_2.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/BSP/BSP_CAN/BSP_CAN.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_CAN/BSP_CAN.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_CAN/BSP_CAN_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/BSP/BSP_DWT/bsp_dwt.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_DWT/bsp_dwt.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/BSP/BSP_IT/BSP_IT.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_IT/BSP_IT.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/BSP/BSP_LED/BSP_LCD.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_LED/BSP_LED.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_LED/BSP_LED_conf.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/BSP/BSP_UART/BSP_UART.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_UART/BSP_UART.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_UART/BSP_UART_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_UART/readme.md",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/BSP/BSP_USB/BSP_USB.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_USB/BSP_USB.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_USB/BSP_USB_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/BSP/BSP_button.h/BSP_button.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_button.h/BSP_button.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_button.h/BSP_button_conf.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/BSP/BSP_buzzer/BSP_buzzer.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_buzzer/BSP_buzzer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/BSP/BSP_delay/bsp_delay.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_delay/bsp_delay.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/BSP/BSP_flash/BSP_W25Qx.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/BSP/BSP_flash/BSP_W25Qx.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/DR16/DR16.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/DR16/DR16.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/DR16/DR16_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/NRF24L01/NRF24L01.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/NRF24L01/NRF24L01.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/NRF24L01/NRF24L01_Define.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/chassis/leg/leg.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/chassis/leg/leg.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/chassis/mecanumwheel_chassis/mecanumwheel_chassis.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/chassis/mecanumwheel_chassis/mecanumwheel_chassis.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/chassis/omniwheel_chassis/omniwheel_chassis.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/chassis/omniwheel_chassis/omniwheel_chassis.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/config.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/core/daemon/daemon.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/core/daemon/daemon.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/core/daemon/daemon.md",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/core/tinybus/module.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/core/tinybus/tinybus.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/core/tinybus/tinybus.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/core/tinybus/tinybus_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/debug/LOG/LOG.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/debug/LOG/LOG.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/debug/freeRTOS_debug/FreertosDebug.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/debug/freeRTOS_debug/FreertosDebug.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/gimbal/gimbal.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/gimbal/gimbal.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/launcher/launcher.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/launcher/launcher.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/logic/drat/drat_logic.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/logic/drat/drat_logic.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/logic/engineer_chassis/enginchas_logic.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/logic/engineer_chassis/enginchas_logic.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/logic/engineer_chassis/enginchas_wheel.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/logic/hero/hero_logic.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/logic/hero/hero_logic.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/logic/infantry/infantry_logic.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/logic/infantry/infantry_logic.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/logic/readme.md",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/modules.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/modules.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/motors/DM_J8006/dm_j8006.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/DM_J8006/dm_j8006.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/motors/DMmotors/dm_motor.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/DMmotors/dm_motor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/motors/GMmotors/C610.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/GMmotors/C610.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/motors/GMmotors/C620.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/GMmotors/C620.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/motors/GMmotors/GM6020.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/GMmotors/GM6020.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/motors/GMmotors/GMmotors.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/GMmotors/GMmotors.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/GMmotors/readme.md",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/motors/MF9025/MF9025.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/MF9025/MF9025.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/MF9025/MF9025_defines.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/motors/MG4005/MG4005.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/MG4005/MG4005.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/MG4005/MG4005_defines.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/motors/cybergear/cybergear.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/cybergear/cybergear.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/cybergear/cybergear_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/cybergear/cybergear_defines.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/cybergear/readme.md",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/motors/steadywin/SteadyWin_MIT.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/steadywin/SteadyWin_MIT.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/motors/stepper_motor/stepper_motor.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/motors/stepper_motor/stepper_motor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/referee/referee.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/referee/referee.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/shooter/shooter.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/shooter/shooter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/super_cap/pm01/pm01.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/super_cap/pm01/pm01.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/super_cap/unknown/unknown_super_cap.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/super_cap/unknown/unknown_super_cap.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/test/test.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/test/test.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/vision/navigation_com/navigation_com.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/vision/navigation_com/navigation_com.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/vision/vision_com/vision_com.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/vision/vision_com/vision_com.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/yue_study/sp/engin_arm/Engin_arm.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/yue_study/sp/engin_arm/Engin_arm.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/yue_study/sp/engin_arm/sp_logic-t.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/yue_study/sp/engin_arm/sp_logic01.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/yue_study/sp/engin_arm/sp_logic_ju.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "justfw/modules/yue_study/sp/engin_arm/special_foot.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "justfw/modules/yue_study/sp/engin_arm/special_foot.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

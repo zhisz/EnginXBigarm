@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43FCFEE2-4B2C-3E6D-A805-58121FC668EE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\33576\Desktop\nf44\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/33576/Desktop/nf44/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/33576/Desktop/nf44 -BC:/Users/33576/Desktop/nf44/cmake-build-debug --check-stamp-file C:/Users/33576/Desktop/nf44/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeASMCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeASMInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-ASM.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Generic.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/33576/Desktop/nf44/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/33576/Desktop/nf44 -BC:/Users/33576/Desktop/nf44/cmake-build-debug --check-stamp-file C:/Users/33576/Desktop/nf44/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeASMCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeASMInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-ASM.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Generic.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/33576/Desktop/nf44/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/33576/Desktop/nf44 -BC:/Users/33576/Desktop/nf44/cmake-build-debug --check-stamp-file C:/Users/33576/Desktop/nf44/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeASMCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeASMInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-ASM.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Generic.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/33576/Desktop/nf44/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/33576/Desktop/nf44 -BC:/Users/33576/Desktop/nf44/cmake-build-debug --check-stamp-file C:/Users/33576/Desktop/nf44/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeASMCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeASMInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-ASM.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Generic.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\33576\Desktop\nf44\cmake-build-debug\ZERO_CHECK.vcxproj">
+      <Project>{5CDB6C0E-88E3-3B4E-A55D-40921B95F6B6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\33576\Desktop\nf44\cmake-build-debug\JUSTOS.elf.vcxproj">
+      <Project>{ED5684AF-0656-3116-BCBC-0085DB5D61D7}</Project>
+      <Name>JUSTOS.elf</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

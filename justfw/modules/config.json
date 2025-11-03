@@ -1,0 +1,17 @@
+{
+    "tinybus": {
+        "enable": true,
+        "config": {
+            "TINYBUS_ENABLE": true,
+            "TINYBUS_TESTINT": 1,
+            "TINYBUS_TESTINT16": -1,
+            "TINYBUS_TESTFP": 1.0,
+            "TINYBUS_TESTSTRING": "helloworld",
+            "TINYBUS_TEST": "TEST",
+            "TINYBUS_TESTSELECT": "(2)"
+        }
+    },
+    "CAN": {
+        "enable": false
+    }
+}

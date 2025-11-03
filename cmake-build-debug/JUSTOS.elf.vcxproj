@@ -1,0 +1,795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ED5684AF-0656-3116-BCBC-0085DB5D61D7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>JUSTOS.elf</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LinkToolExe Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe</LinkToolExe>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">JUSTOS.elf.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">JUSTOS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LinkToolExe Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe</LinkToolExe>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">JUSTOS.elf.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">JUSTOS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LinkToolExe Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe</LinkToolExe>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">JUSTOS.elf.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">JUSTOS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LinkToolExe Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe</LinkToolExe>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">JUSTOS.elf.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">JUSTOS</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization></Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary></RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F446xx;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F446xx;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Building C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.hex	Building C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.bin</Message>
+      <Command>setlocal
+arm-none-eabi-objcopy -Oihex C:/Users/33576/Desktop/nf44/cmake-build-debug/Debug/JUSTOS.elf C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.hex
+if %errorlevel% neq 0 goto :cmEnd
+arm-none-eabi-objcopy -Obinary C:/Users/33576/Desktop/nf44/cmake-build-debug/Debug/JUSTOS.elf C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>-larm_cortexM4lf_math</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/33576/Desktop/nf44/Middlewares/ST/ARM/DSP/Lib;C:/Users/33576/Desktop/nf44/Middlewares/ST/ARM/DSP/Lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T C:/Users/33576/Desktop/nf44/STM32F446RCTX_FLASH.ld</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>C:/Users/33576/Desktop/nf44/cmake-build-debug/Debug/JUSTOS.elf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization></Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary></RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F446xx;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F446xx;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Building C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.hex	Building C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.bin</Message>
+      <Command>setlocal
+arm-none-eabi-objcopy -Oihex C:/Users/33576/Desktop/nf44/cmake-build-debug/Release/JUSTOS.elf C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.hex
+if %errorlevel% neq 0 goto :cmEnd
+arm-none-eabi-objcopy -Obinary C:/Users/33576/Desktop/nf44/cmake-build-debug/Release/JUSTOS.elf C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>-larm_cortexM4lf_math</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/33576/Desktop/nf44/Middlewares/ST/ARM/DSP/Lib;C:/Users/33576/Desktop/nf44/Middlewares/ST/ARM/DSP/Lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T C:/Users/33576/Desktop/nf44/STM32F446RCTX_FLASH.ld</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>C:/Users/33576/Desktop/nf44/cmake-build-debug/Release/JUSTOS.elf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization></Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary></RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F446xx;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F446xx;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Building C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.hex	Building C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.bin</Message>
+      <Command>setlocal
+arm-none-eabi-objcopy -Oihex C:/Users/33576/Desktop/nf44/cmake-build-debug/MinSizeRel/JUSTOS.elf C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.hex
+if %errorlevel% neq 0 goto :cmEnd
+arm-none-eabi-objcopy -Obinary C:/Users/33576/Desktop/nf44/cmake-build-debug/MinSizeRel/JUSTOS.elf C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>-larm_cortexM4lf_math</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/33576/Desktop/nf44/Middlewares/ST/ARM/DSP/Lib;C:/Users/33576/Desktop/nf44/Middlewares/ST/ARM/DSP/Lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T C:/Users/33576/Desktop/nf44/STM32F446RCTX_FLASH.ld</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>C:/Users/33576/Desktop/nf44/cmake-build-debug/MinSizeRel/JUSTOS.elf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization></Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary></RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F446xx;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F446xx;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc;C:\Users\33576\Desktop\nf44\Core\Inc;C:\Users\33576\Desktop\nf44\USB_DEVICE\App;C:\Users\33576\Desktop\nf44\USB_DEVICE\Target;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc;C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay;C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash;C:\Users\33576\Desktop\nf44\justfw\modules\DR16;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon;C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus;C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG;C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug;C:\Users\33576\Desktop\nf44\justfw\modules\gimbal;C:\Users\33576\Desktop\nf44\justfw\modules\launcher;C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat;C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis;C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero;C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry;C:\Users\33576\Desktop\nf44\justfw\modules;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006;C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025;C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005;C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear;C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin;C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor;C:\Users\33576\Desktop\nf44\justfw\modules\referee;C:\Users\33576\Desktop\nf44\justfw\modules\shooter;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01;C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown;C:\Users\33576\Desktop\nf44\justfw\modules\test;C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com;C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com;C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm;C:\Users\33576\Desktop\nf44\justfw\lib\PID;C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF;C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types;C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file;C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash;C:\Users\33576\Desktop\nf44\justfw\lib\fifo;C:\Users\33576\Desktop\nf44\justfw\lib\kalman;C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter;C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com;C:\Users\33576\Desktop\nf44\justfw\lib\userlib;C:\Users\33576\Desktop\nf44\User;C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS;C:\Users\33576\Desktop\nf44\justfw\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Building C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.hex	Building C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.bin</Message>
+      <Command>setlocal
+arm-none-eabi-objcopy -Oihex C:/Users/33576/Desktop/nf44/cmake-build-debug/RelWithDebInfo/JUSTOS.elf C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.hex
+if %errorlevel% neq 0 goto :cmEnd
+arm-none-eabi-objcopy -Obinary C:/Users/33576/Desktop/nf44/cmake-build-debug/RelWithDebInfo/JUSTOS.elf C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>-larm_cortexM4lf_math</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/33576/Desktop/nf44/Middlewares/ST/ARM/DSP/Lib;C:/Users/33576/Desktop/nf44/Middlewares/ST/ARM/DSP/Lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/33576/Desktop/nf44/cmake-build-debug/JUSTOS.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T C:/Users/33576/Desktop/nf44/STM32F446RCTX_FLASH.ld</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>C:/Users/33576/Desktop/nf44/cmake-build-debug/RelWithDebInfo/JUSTOS.elf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\33576\Desktop\nf44\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/33576/Desktop/nf44/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/33576/Desktop/nf44 -BC:/Users/33576/Desktop/nf44/cmake-build-debug --check-stamp-file C:/Users/33576/Desktop/nf44/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeASMCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeASMInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-ASM.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Generic.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/33576/Desktop/nf44/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/33576/Desktop/nf44 -BC:/Users/33576/Desktop/nf44/cmake-build-debug --check-stamp-file C:/Users/33576/Desktop/nf44/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeASMCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeASMInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-ASM.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Generic.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/33576/Desktop/nf44/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/33576/Desktop/nf44 -BC:/Users/33576/Desktop/nf44/cmake-build-debug --check-stamp-file C:/Users/33576/Desktop/nf44/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeASMCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeASMInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-ASM.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Generic.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/33576/Desktop/nf44/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/33576/Desktop/nf44 -BC:/Users/33576/Desktop/nf44/cmake-build-debug --check-stamp-file C:/Users/33576/Desktop/nf44/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeASMCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeCXXCompiler.cmake;C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\3.30.5\CMakeSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeASMInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-ASM.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\CLion 2024.3.3\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Generic.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\33576\Desktop\nf44\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\FreeRTOSConfig.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\adc.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\can.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\crc.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\dma.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\gpio.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\i2c.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\main.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\spi.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\stm32f4xx_hal_conf.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\stm32f4xx_it.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\tim.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Core\Inc\usart.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\adc.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\can.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\crc.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\dma.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\freertos.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\gpio.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\i2c.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\main.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\spi.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\stm32f4xx_hal_msp.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\stm32f4xx_hal_timebase_tim.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\stm32f4xx_it.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\syscalls.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\sysmem.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\system_stm32f4xx.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\tim.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Core\Src\usart.c" />
+    <None Include="C:\Users\33576\Desktop\nf44\Core\Startup\startup_stm32f446rctx.s" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h" />
+    <None Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Device\ST\STM32F4xx\LICENSE.txt">
+    </None>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cachel1_armv7.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cmsis_armcc.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cmsis_armclang.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cmsis_armclang_ltm.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cmsis_compiler.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cmsis_gcc.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cmsis_iccarm.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\cmsis_version.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_armv81mml.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_armv8mbl.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_armv8mml.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm0.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm0plus.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm1.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm23.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm3.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm33.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm35p.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm4.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm55.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm7.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_cm85.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_sc000.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_sc300.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\core_starmc1.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\mpu_armv7.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\mpu_armv8.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\pac_armv81.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\pmu_armv8.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\Include\tz_context.h" />
+    <None Include="C:\Users\33576\Desktop\nf44\Drivers\CMSIS\LICENSE.txt">
+    </None>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_can.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_crc.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd_ex.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_bus.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_cortex.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_crc.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_dma.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_exti.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_gpio.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_i2c.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_pwr.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_rcc.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_spi.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_system.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_tim.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usart.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_utils.h" />
+    <None Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\LICENSE.txt">
+    </None>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Inc\arm_math.h" />
+    <None Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\ARM\DSP\Lib\libarm_cortexM4lf_math.a">
+    </None>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc\usbd_cdc.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_core.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ctlreq.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_def.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ioreq.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c" />
+    <None Include="C:\Users\33576\Desktop\nf44\Middlewares\ST\STM32_USB_Device_Library\LICENSE.txt">
+    </None>
+    <None Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\ARM\DSP\LICENSE.txt">
+    </None>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\croutine.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\StackMacros.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\atomic.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\croutine.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\deprecated_definitions.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\event_groups.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\list.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\message_buffer.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\mpu_prototypes.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\mpu_wrappers.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\projdefs.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\queue.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\semphr.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\stack_macros.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\stream_buffer.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\task.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\include\timers.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\list.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\portmacro.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\queue.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\tasks.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\Middlewares\Third_Party\FreeRTOS\Source\timers.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\App\usb_device.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\App\usb_device.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\App\usbd_cdc_if.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\App\usbd_cdc_if.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\App\usbd_desc.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\App\usbd_desc.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\Target\usbd_conf.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\USB_DEVICE\Target\usbd_conf.h" />
+    <None Include="C:\Users\33576\Desktop\nf44\stm32f446rctx_flash.ld">
+    </None>
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\interface.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_can.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_chassis.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_dr16.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_efcom.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_gimbal.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_leg.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_log.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_motor.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_navigation.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_shooter.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_uart.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\interface\intf_vision.h" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\interface\readme.md">
+    </None>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\PID\PID.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\PID\PID.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\PID\PID_classic.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\PID\PID_classic.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF\QuaternionEKF.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\QuaternionEKF\QuaternionEKF.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16\crc8_crc16.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\crc8_crc16\crc8_crc16.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc\easyflash.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc\ef_cfg.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\inc\ef_def.h" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\README.md">
+    </None>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\ef_types.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\ef_types.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc\cJSON.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc\s2j.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\inc\s2jdef.h" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\readme.md">
+    </None>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\src\cJSON.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\plugins\types\struct2json\src\s2j.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\port\ef_port.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\src\easyflash.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\src\ef_env.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\src\ef_env_legacy.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\src\ef_env_legacy_wl.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\src\ef_iap.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\src\ef_log.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easyflash\src\ef_utils.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc\elog.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\inc\elog_cfg.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file\elog_file.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file\elog_file.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file\elog_file_cfg.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\file\elog_file_port.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash\elog_flash.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash\elog_flash.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash\elog_flash_cfg.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\plugins\flash\elog_flash_port.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\port\elog_port.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\src\elog.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\src\elog_async.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\src\elog_buf.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\easylogger\src\elog_utils.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\fifo\fifo.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\fifo\fifo.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\kalman\kalman.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\kalman\kalman.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter\kalman_filter.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\kalman_filter\kalman_filter.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com\EF_com.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com\EF_com.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com\EF_conf.h" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\lib\userlib\EF_com\README.md">
+    </None>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\lib\userlib\user_lib.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\lib\userlib\user_lib.h" />
+    <Image Include="C:\Users\33576\Desktop\nf44\justfw\misc\img.png">
+    </Image>
+    <Image Include="C:\Users\33576\Desktop\nf44\justfw\misc\img_1.png">
+    </Image>
+    <Image Include="C:\Users\33576\Desktop\nf44\justfw\misc\img_2.png">
+    </Image>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN\BSP_CAN.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN\BSP_CAN.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_CAN\BSP_CAN_config.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT\bsp_dwt.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_DWT\bsp_dwt.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT\BSP_IT.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_IT\BSP_IT.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED\BSP_LCD.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED\BSP_LED.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_LED\BSP_LED_conf.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART\BSP_UART.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART\BSP_UART.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART\BSP_UART_config.h" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_UART\readme.md">
+    </None>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB\BSP_USB.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB\BSP_USB.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_USB\BSP_USB_config.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h\BSP_button.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h\BSP_button.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_button.h\BSP_button_conf.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer\BSP_buzzer.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_buzzer\BSP_buzzer.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay\bsp_delay.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_delay\bsp_delay.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash\BSP_W25Qx.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\BSP\BSP_flash\BSP_W25Qx.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\DR16\DR16.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\DR16\DR16.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\DR16\DR16_config.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg\leg.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\chassis\leg\leg.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis\mecanumwheel_chassis.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\chassis\mecanumwheel_chassis\mecanumwheel_chassis.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis\omniwheel_chassis.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\chassis\omniwheel_chassis\omniwheel_chassis.h" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\modules\config.json">
+    </None>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon\daemon.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon\daemon.h" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\modules\core\daemon\daemon.md">
+    </None>
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus\module.json">
+    </None>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus\tinybus.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus\tinybus.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\core\tinybus\tinybus_config.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG\LOG.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\debug\LOG\LOG.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug\FreertosDebug.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\debug\freeRTOS_debug\FreertosDebug.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\gimbal\gimbal.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\gimbal\gimbal.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\launcher\launcher.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\launcher\launcher.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat\drat_logic.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\drat\drat_logic.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis\enginchas_logic.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis\enginchas_logic.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\engineer_chassis\enginchas_wheel.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero\hero_logic.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\hero\hero_logic.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry\infantry_logic.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\infantry\infantry_logic.h" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\modules\logic\readme.md">
+    </None>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\modules.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\modules.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006\dm_j8006.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\DM_J8006\dm_j8006.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors\dm_motor.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\DMmotors\dm_motor.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\C610.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\C610.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\C620.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\C620.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\GM6020.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\GM6020.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\GMmotors.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\GMmotors.h" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\GMmotors\readme.md">
+    </None>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025\MF9025.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025\MF9025.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\MF9025\MF9025_defines.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005\MG4005.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005\MG4005.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\MG4005\MG4005_defines.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear\cybergear.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear\cybergear.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear\cybergear_config.h" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear\cybergear_defines.h" />
+    <None Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\cybergear\readme.md">
+    </None>
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin\SteadyWin_MIT.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\steadywin\SteadyWin_MIT.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor\stepper_motor.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\motors\stepper_motor\stepper_motor.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\referee\referee.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\referee\referee.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\shooter\shooter.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\shooter\shooter.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01\pm01.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\pm01\pm01.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown\unknown_super_cap.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\super_cap\unknown\unknown_super_cap.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\test\test.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\test\test.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com\navigation_com.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\vision\navigation_com\navigation_com.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com\vision_com.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\vision\vision_com\vision_com.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm\Engin_arm.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm\Engin_arm.h" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm\sp_logic-t.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm\sp_logic01.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm\sp_logic_ju.c" />
+    <ClCompile Include="C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm\special_foot.c" />
+    <ClInclude Include="C:\Users\33576\Desktop\nf44\justfw\modules\yue_study\sp\engin_arm\special_foot.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\33576\Desktop\nf44\cmake-build-debug\ZERO_CHECK.vcxproj">
+      <Project>{5CDB6C0E-88E3-3B4E-A55D-40921B95F6B6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

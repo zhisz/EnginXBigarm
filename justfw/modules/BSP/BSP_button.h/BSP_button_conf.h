@@ -1,0 +1,10 @@
+#ifndef __BUTTON_H
+#define __BUTTON_H
+
+#define BUTTON_DOWN_TOPIC "BUTTON/DOWN"
+#define BUTTON_UP_TOPIC "BUTTON/UP"
+
+#define BUTTON_GPIO_PORT GPIOA
+#define BUTTON_GPIO_PIN GPIO_PIN_15
+
+#endif

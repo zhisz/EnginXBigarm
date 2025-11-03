@@ -1,0 +1,55 @@
+//
+// Created by Ukua on 2023/9/18.
+//
+
+#ifndef JUSTFW_MODULES_H
+#define JUSTFW_MODULES_H
+void Modules_Init();
+
+#include "BSP_CAN.h"
+#include "NRF24L01.h"
+#include "BSP_USB.h"
+#include "BSP_button.h"
+#include "BSP_buzzer.h"
+#include "LOG.h"
+#include "MF9025.h"
+#include "cybergear.h"
+#include "daemon.h"
+#include "tinybus.h"
+// #include "BSP_bmi088.h"
+#include "BSP_IT.h"
+#include "BSP_LED.h"
+#include "BSP_UART.h"
+#include "BSP_delay.h"
+#include "DR16.h"
+#include "FreertosDebug.h"
+#include "GMmotors.h"
+#include "MG4005.h"
+#include "bsp_dwt.h"
+#include "dm_j8006.h"
+#include "dm_motor.h"
+#include "enginchas_logic.h"
+#include "gimbal.h"
+#include "hero_logic.h"
+#include "infantry_logic.h"
+#include "launcher.h"
+#include "leg.h"
+#include "mecanumwheel_chassis.h"
+#include "navigation_com.h"
+#include "omniwheel_chassis.h"
+#include "pm01.h"
+#include "referee.h"
+#include "shooter.h"
+#include "stepper_motor.h"
+// #include "test_logic.h"
+//#include "yue.h"
+//#include "GM6020.h"
+//#include "bu.h"
+// #include "sp_logic.h"
+#include "Engin_arm.h"
+// #include "engineer_arm.h"
+#include "unknown_super_cap.h"
+#include "vision_com.h"
+//#include "special_foot.h"
+
+#endif  // JUSTFW_MODULES_H
