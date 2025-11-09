@@ -8,34 +8,34 @@
 		},
 		"paths" : 
 		{
-			"cmake" : "D:/CLion 2024.3.3/bin/cmake/win/x64/bin/cmake.exe",
-			"cpack" : "D:/CLion 2024.3.3/bin/cmake/win/x64/bin/cpack.exe",
-			"ctest" : "D:/CLion 2024.3.3/bin/cmake/win/x64/bin/ctest.exe",
-			"root" : "D:/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30"
+			"cmake" : "C:/ST/STM32CubeCLT_1.18.0/CMake/bin/cmake.exe",
+			"cpack" : "C:/ST/STM32CubeCLT_1.18.0/CMake/bin/cpack.exe",
+			"ctest" : "C:/ST/STM32CubeCLT_1.18.0/CMake/bin/ctest.exe",
+			"root" : "C:/ST/STM32CubeCLT_1.18.0/CMake/share/cmake-3.28"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
 			"major" : 3,
-			"minor" : 30,
-			"patch" : 5,
-			"string" : "3.30.5",
+			"minor" : 28,
+			"patch" : 1,
+			"string" : "3.28.1",
 			"suffix" : ""
 		}
 	},
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-74e7a3b01f62b4af6545.json",
+			"jsonFile" : "codemodel-v2-162926ae151ce0ea2776.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 7
+				"minor" : 6
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-8d862244b050221c1056.json",
+			"jsonFile" : "cache-v2-84945ad92742296d5aa2.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,16 +44,16 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-a690490a2a60627ea83c.json",
+			"jsonFile" : "cmakeFiles-v1-6e703c4372f9d7d07aad.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
 				"major" : 1,
-				"minor" : 1
+				"minor" : 0
 			}
 		},
 		{
-			"jsonFile" : "toolchains-v1-894b23b1f1b033da07d8.json",
+			"jsonFile" : "toolchains-v1-3ce255eb34c455388e56.json",
 			"kind" : "toolchains",
 			"version" : 
 			{
@@ -66,7 +66,7 @@
 	{
 		"cache-v2" : 
 		{
-			"jsonFile" : "cache-v2-8d862244b050221c1056.json",
+			"jsonFile" : "cache-v2-84945ad92742296d5aa2.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -76,27 +76,27 @@
 		},
 		"cmakeFiles-v1" : 
 		{
-			"jsonFile" : "cmakeFiles-v1-a690490a2a60627ea83c.json",
+			"jsonFile" : "cmakeFiles-v1-6e703c4372f9d7d07aad.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
 				"major" : 1,
-				"minor" : 1
+				"minor" : 0
 			}
 		},
 		"codemodel-v2" : 
 		{
-			"jsonFile" : "codemodel-v2-74e7a3b01f62b4af6545.json",
+			"jsonFile" : "codemodel-v2-162926ae151ce0ea2776.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 7
+				"minor" : 6
 			}
 		},
 		"toolchains-v1" : 
 		{
-			"jsonFile" : "toolchains-v1-894b23b1f1b033da07d8.json",
+			"jsonFile" : "toolchains-v1-3ce255eb34c455388e56.json",
 			"kind" : "toolchains",
 			"version" : 
 			{

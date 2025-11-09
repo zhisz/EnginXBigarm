@@ -149,7 +149,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+					"fragment" : "-std=gnu11 -fdiagnostics-color=always"
 				},
 				{
 					"backtrace" : 7,
@@ -227,291 +227,291 @@
 			[
 				{
 					"backtrace" : 14,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/ST/ARM/DSP/Inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/Middlewares/ST/ARM/DSP/Inc"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Core/Inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/Core/Inc"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/USB_DEVICE/App"
+					"path" : "D:/STM32Projects/EnginXBigarm/USB_DEVICE/App"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/USB_DEVICE/Target"
+					"path" : "D:/STM32Projects/EnginXBigarm/USB_DEVICE/Target"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "D:/STM32Projects/EnginXBigarm/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/include"
+					"path" : "D:/STM32Projects/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/include"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+					"path" : "D:/STM32Projects/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "D:/STM32Projects/EnginXBigarm/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/CMSIS/Include"
+					"path" : "D:/STM32Projects/EnginXBigarm/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
+					"path" : "D:/STM32Projects/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_CAN"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_CAN"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_DWT"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_DWT"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_IT"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_IT"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_LED"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_LED"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_UART"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_UART"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_USB"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_USB"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_button.h"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_button.h"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_buzzer"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_buzzer"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_delay"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_delay"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_flash"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_flash"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/DR16"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/DR16"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/NRF24L01"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/NRF24L01"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/chassis/leg"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/chassis/leg"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/chassis/mecanumwheel_chassis"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/chassis/mecanumwheel_chassis"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/chassis/omniwheel_chassis"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/chassis/omniwheel_chassis"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/core/daemon"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/core/daemon"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/core/tinybus"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/core/tinybus"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/debug/LOG"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/debug/LOG"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/debug/freeRTOS_debug"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/debug/freeRTOS_debug"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/gimbal"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/gimbal"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/launcher"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/launcher"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/drat"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/logic/drat"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/engineer_chassis"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/logic/engineer_chassis"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/hero"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/logic/hero"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/infantry"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/logic/infantry"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/DM_J8006"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/DM_J8006"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/DMmotors"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/DMmotors"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/GMmotors"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/GMmotors"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/MF9025"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/MF9025"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/MG4005"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/MG4005"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/cybergear"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/cybergear"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/steadywin"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/steadywin"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/stepper_motor"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/stepper_motor"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/referee"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/referee"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/shooter"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/shooter"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/super_cap/pm01"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/super_cap/pm01"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/super_cap/unknown"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/super_cap/unknown"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/test"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/test"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/vision/navigation_com"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/vision/navigation_com"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/vision/vision_com"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/vision/vision_com"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/yue_study/sp/engin_arm"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/yue_study/sp/engin_arm"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/PID"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/PID"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/QuaternionEKF"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/QuaternionEKF"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/crc8_crc16"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/crc8_crc16"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easyflash/inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/easyflash/inc"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easyflash/plugins/types"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/easyflash/plugins/types"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easyflash/plugins/types/struct2json/inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/easyflash/plugins/types/struct2json/inc"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easylogger/inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/easylogger/inc"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easylogger/plugins/file"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/easylogger/plugins/file"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easylogger/plugins/flash"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/easylogger/plugins/flash"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/fifo"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/fifo"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/kalman"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/kalman"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/kalman_filter"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/kalman_filter"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/userlib/EF_com"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/userlib/EF_com"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/userlib"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/userlib"
 				},
 				{
 					"backtrace" : 18,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/User"
+					"path" : "D:/STM32Projects/EnginXBigarm/User"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
+					"path" : "D:/STM32Projects/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/interface"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/interface"
 				}
 			],
 			"language" : "C",
@@ -672,9 +672,6 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
-				},
-				{
 					"backtrace" : 7,
 					"fragment" : "-mfloat-abi=hard"
 				},
@@ -758,291 +755,291 @@
 			[
 				{
 					"backtrace" : 14,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/ST/ARM/DSP/Inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/Middlewares/ST/ARM/DSP/Inc"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Core/Inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/Core/Inc"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/USB_DEVICE/App"
+					"path" : "D:/STM32Projects/EnginXBigarm/USB_DEVICE/App"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/USB_DEVICE/Target"
+					"path" : "D:/STM32Projects/EnginXBigarm/USB_DEVICE/Target"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "D:/STM32Projects/EnginXBigarm/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/include"
+					"path" : "D:/STM32Projects/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/include"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+					"path" : "D:/STM32Projects/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "D:/STM32Projects/EnginXBigarm/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Drivers/CMSIS/Include"
+					"path" : "D:/STM32Projects/EnginXBigarm/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
+					"path" : "D:/STM32Projects/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_CAN"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_CAN"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_DWT"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_DWT"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_IT"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_IT"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_LED"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_LED"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_UART"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_UART"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_USB"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_USB"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_button.h"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_button.h"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_buzzer"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_buzzer"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_delay"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_delay"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/BSP/BSP_flash"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/BSP/BSP_flash"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/DR16"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/DR16"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/NRF24L01"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/NRF24L01"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/chassis/leg"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/chassis/leg"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/chassis/mecanumwheel_chassis"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/chassis/mecanumwheel_chassis"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/chassis/omniwheel_chassis"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/chassis/omniwheel_chassis"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/core/daemon"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/core/daemon"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/core/tinybus"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/core/tinybus"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/debug/LOG"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/debug/LOG"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/debug/freeRTOS_debug"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/debug/freeRTOS_debug"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/gimbal"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/gimbal"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/launcher"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/launcher"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/drat"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/logic/drat"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/engineer_chassis"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/logic/engineer_chassis"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/hero"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/logic/hero"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/logic/infantry"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/logic/infantry"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/DM_J8006"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/DM_J8006"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/DMmotors"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/DMmotors"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/GMmotors"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/GMmotors"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/MF9025"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/MF9025"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/MG4005"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/MG4005"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/cybergear"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/cybergear"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/steadywin"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/steadywin"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/motors/stepper_motor"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/motors/stepper_motor"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/referee"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/referee"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/shooter"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/shooter"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/super_cap/pm01"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/super_cap/pm01"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/super_cap/unknown"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/super_cap/unknown"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/test"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/test"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/vision/navigation_com"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/vision/navigation_com"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/vision/vision_com"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/vision/vision_com"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/modules/yue_study/sp/engin_arm"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/modules/yue_study/sp/engin_arm"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/PID"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/PID"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/QuaternionEKF"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/QuaternionEKF"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/crc8_crc16"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/crc8_crc16"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easyflash/inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/easyflash/inc"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easyflash/plugins/types"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/easyflash/plugins/types"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easyflash/plugins/types/struct2json/inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/easyflash/plugins/types/struct2json/inc"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easylogger/inc"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/easylogger/inc"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easylogger/plugins/file"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/easylogger/plugins/file"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/easylogger/plugins/flash"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/easylogger/plugins/flash"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/fifo"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/fifo"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/kalman"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/kalman"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/kalman_filter"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/kalman_filter"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/userlib/EF_com"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/userlib/EF_com"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/lib/userlib"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/lib/userlib"
 				},
 				{
 					"backtrace" : 18,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/User"
+					"path" : "D:/STM32Projects/EnginXBigarm/User"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
+					"path" : "D:/STM32Projects/EnginXBigarm/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "C:/Users/33576/Desktop/EnginXBigarm/justfw/interface"
+					"path" : "D:/STM32Projects/EnginXBigarm/justfw/interface"
 				}
 			],
 			"language" : "ASM",
@@ -1057,10 +1054,6 @@
 	{
 		"commandFragments" : 
 		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
 			{
 				"fragment" : "",
 				"role" : "flags"
@@ -1077,7 +1070,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/33576/Desktop/EnginXBigarm/cmake-build-debug/JUSTOS.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=D:/STM32Projects/EnginXBigarm/cmake-build-debug/JUSTOS.map",
 				"role" : "flags"
 			},
 			{
@@ -1102,12 +1095,12 @@
 			},
 			{
 				"backtrace" : 5,
-				"fragment" : "C:/Users/33576/Desktop/EnginXBigarm/STM32F446RCTX_FLASH.ld",
+				"fragment" : "D:/STM32Projects/EnginXBigarm/STM32F446RCTX_FLASH.ld",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 6,
-				"fragment" : "-LC:\\Users\\33576\\Desktop\\EnginXBigarm\\Middlewares\\ST\\ARM\\DSP\\Lib",
+				"fragment" : "-LD:\\STM32Projects\\EnginXBigarm\\Middlewares\\ST\\ARM\\DSP\\Lib",
 				"role" : "libraryPath"
 			},
 			{
